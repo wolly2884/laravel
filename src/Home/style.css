@@ -1,0 +1,42 @@
+.container {
+    background-image: url('../../assets/BackGround.svg');
+    background-color: black;
+    margin-top: 30vh;
+    /* Outras propriedades de estilo */
+}
+.div {
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+.logo {
+    margin-top: -15vh; /* Ajusta a margem superior para posicionar a logo */
+    width: 50vh; /* Define a largura da logo */
+    height: auto; /* Mantém a proporção da imagem */
+    padding: 10px; /* Adiciona um espaço interno de 10 pixels dentro da borda */
+    border-radius: 10px; /* Adiciona um raio de borda de 10 pixels para arredondar a borda */
+}
+
+.p {
+    max-width: 10vh;
+    border-width: 1vh;
+}
+.Signin {
+    margin-top: 5vh; /* Ajusta a margem superior para posicionar a logo */
+    width: 50vh; /* Define a largura da logo */
+    height: 30vh; /* Mantém a proporção da imagem */
+    padding: 10px; /* Adiciona um espaço interno de 10 pixels dentro da borda */
+    border-radius: 10px; /* Adiciona um raio de borda de 10 pixels para arredondar a borda */
+    padding: auto;
+    margin-left: 10vh;
+}
+.button {
+    padding: 20px; /* Adiciona um espaço interno de 10 pixels dentro da borda */
+    border: 1px solid black; /* Adiciona uma borda preta de 1 pixel */
+    border-radius: 10px; /* Adiciona um raio de borda de 10 pixels para arredondar a borda */
+    padding-left: 20px;
+    margin-left: 10vh;
+    margin-top: 20vh;
+    text-align: center;
+    background-color: darkgray;
+    width: 20vh;
+}

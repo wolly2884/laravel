@@ -1,0 +1,78 @@
+/* style.css */
+
+body {
+    background-color: #1a73e8; /* Background color matching the image */
+  }
+  
+  .logos {
+    margin-top: -5vh;
+    margin-left: 10vh;
+  }
+  
+  .Signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .Signin .form-container {
+    background-color: transparent; /* White background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .Signin h1 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff; /* White color for the title */
+    text-align: center;
+  }
+  
+  .Signin p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff; /* White color for the description */
+    text-align: center;
+  }
+  
+  .Signin .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .Signin .form-label {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff; /* White color for the labels */
+    display: flex;
+    align-items: center;
+  }
+  
+  .Signin .form-label i {
+    margin-right: 5px; /* Space between icon and label */
+  }
+  
+  .Signin .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .Signin .btn-primary {
+    background-color: #34a853; /* Green color for the button */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .Signin .btn-primary:hover {
+    background-color: #2c8c47; /* Darker green on hover */
+  }
+  

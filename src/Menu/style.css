@@ -1,0 +1,24 @@
+.menu {
+    padding: 10px; /* Espaçamento interno do menu */
+    display: flex;
+    justify-content: space-around; /* Distribui os links uniformemente */
+    margin-left: 60vh;
+    margin-top: 5vh;
+}
+
+.menu a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #333; /* Cor do texto dos links */
+    border: 1px solid #ccc; /* Adiciona uma borda de 1px sólida com cor cinza */
+    padding: 5px 10px; /* Espaçamento interno do link */
+    border-radius: 1vh;
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+    font-size: 2vh;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'arial';
+}
+
+.menu a:hover {
+    background-color: #f0f0f0; /* Muda a cor de fundo ao passar o mouse sobre o link */
+}
